@@ -1,0 +1,73 @@
+body 
+{}
+.card1{
+	width:290px;
+	height: 400px;
+	text-align: center;
+	padding-top: 50px;
+
+	
+}
+.card2{
+	width:290px;
+	height:400px;
+	text-align: center;
+	padding-top: 50px
+}
+.card3{
+	width:290px;
+	height:400px;
+	text-align: center;
+	padding-top: 50px
+}
+.container {
+	
+}
+
+.image {
+	display: block;
+	width:400px;
+	height:300px;
+	text-align: center;
+	padding-top: 50px
+}
+
+.overlay {
+	opacity: 0;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+.container:hover .image{
+	opacity: 0;
+	display: none;
+}
+
+.text {
+	color: black;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
